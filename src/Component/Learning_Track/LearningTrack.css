@@ -1,0 +1,51 @@
+.learningtrack{
+    /* background-color: #1b3355; */
+   
+}
+.learningtrack .card{
+    height: 250px;
+    width: 237px;
+    box-shadow: 7px 10px 10px black;
+   background-repeat: no-repeat;
+   /* background-size:contain; */
+   border: none;
+}
+.card .container{
+    color: white;
+    height: 100%;
+   display: flex;
+   align-items: flex-end;
+
+}
+.card .content{
+    width: 100%;
+    height: 150px;
+    background-color: #1b3355;
+    transition:all 0.5s linear;
+}
+.card .content h6{
+    padding: 0 10px;
+}
+.content .career{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #0D2440;
+}
+.career button{
+    margin-left: 10px;
+    background-color: rgb(180, 0, 222);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+}
+.card:hover .content{
+    cursor: pointer;
+    height: 165px;
+    background-color: #1b335593;
+}
+.wrapper-box{
+    display: flex;
+}

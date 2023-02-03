@@ -1,0 +1,11 @@
+.selectedTrack{
+    border-bottom: 2px solid white;
+    
+    padding: 5px;
+    /* margin-top: 50px; */
+}
+.course{
+    /* margin-top: 50px; */
+
+    color: white;
+}

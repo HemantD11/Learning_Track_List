@@ -1,0 +1,33 @@
+.sidebar{
+    box-shadow: 10px 0 7px black;
+    transition: 0.3s linear;
+    color: white;
+}
+.sidebar-wrapper{
+    margin-top: 50px;
+    position: sticky;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.filter-box div{
+    display: flex;
+    margin: 15px;
+    align-items: center;
+}
+.filter-box input{
+    width: 50px;
+    height: 25px;
+}
+.collaps button{
+    position: relative;
+    top: 235px;
+    left: 195px;
+    cursor: pointer;
+    background-color: rgb(180, 0, 222);
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}

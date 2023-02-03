@@ -1,0 +1,43 @@
+.enrollContainer{
+    margin: 70px;
+    background-color: rgb(47, 76, 117);
+    color: white;
+    padding:50px;
+    border-radius: 10px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .content .career{
+    background-color: rgb(47, 76, 117);
+    gap: 100px;
+}
+.wrapper .career button{
+    margin: 0;
+    border: 1px inset;
+}
+.wrapper .image img{
+    width: 200px;
+    border-radius: 10px;
+    aspect-ratio: 1/1;
+}
+.content .career p{
+    font-size: 18px;
+}
+.enroll{
+    background-color: rgb(180, 92, 227);
+    height: 40px;
+    border: none;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+}
+.enroll:hover{
+    background-color: rgb(157, 81, 199);
+    cursor: pointer;
+}
+.content .description p{
+    font-size: 16px;
+}

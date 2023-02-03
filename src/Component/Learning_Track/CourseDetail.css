@@ -1,0 +1,66 @@
+.course-detail{
+    background: linear-gradient(45deg, black, transparent);
+    color: white;
+    display: flex;
+}
+.course-detail .enroll-card{
+    box-shadow: 2px 2px 10px black;
+    border-radius: 7px;
+    position: relative;
+    top: 120px;
+    background-color: #0b233f;
+    margin-right: 50px;
+}
+
+.enroll-card .icon{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.enrollbtn{
+    margin: 25px;
+    text-align: center;
+}
+.course-content{
+    margin: 0 40px;
+}
+.overview{
+    color: white;
+}
+.overview .overview-tab ul{
+    list-style: none;
+    color: white;
+    display: flex;
+    gap: 80px;
+}
+.overview-tab ul li{
+    cursor: pointer;
+}
+.overview h4{
+    margin: 0 10px;
+    color:rgb(255, 166, 0);
+}
+.overview p{
+    margin: 0 15px;
+    font-size: 14px;
+    color: white;
+}
+.about-course,.Assessment-Criteria,.timeline-view{
+    width: 60%;
+}
+
+/* .overview-tab ul li a:active{
+    color: red;
+} */
+
+ol li div{
+    font-size: small;
+}
+.timeline-view ol{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
